@@ -74,11 +74,7 @@ public class Alerts_modals {
             }
       	}
       	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-      	//javascript alert message//
-      	driver.findElement(By.linkText("Alerts & Modals")).click();
-      	driver.findElement(By.linkText("Javascript Alerts")).click();
-      	WebElement clickOption=driver.findElement(By.linkText("Click me!"));
-      	clickOption.click();
+      
 	}
 }
 

@@ -139,8 +139,8 @@ public class First {
         }
         WebElement comment1=driver.findElement(By.name("comment"));
         comment1.sendKeys("All the details are entered");
-        WebElement submit = driver.findElement(By.xpath("//input[@type='submit']"));
-        submit.click();
+        WebElement submitt = driver.findElement(By.xpath("//div[@class='col-md-4']"));
+        submitt.submit();
         
         
         
